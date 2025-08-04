@@ -1,0 +1,17 @@
+# Ignore files that don't need to be in Docker image
+target/
+*.log
+.git
+.gitignore
+README.md
+.env
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
